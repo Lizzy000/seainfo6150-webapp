@@ -8,18 +8,26 @@ const ArticleListItem = props => {
     const slug = article.slug;
 
     return (
-        <section>
-            <h3>{article.title}</h3>
-            <p>{article.shortText}</p>
-            <time dateTime={article.pubYear}>
-                {article.pubDate}
-                <button onClick={() => alert(slug)}>
-                    show article slug
-                </button>
 
-            </time>
+        <html>
+            <head>
+                <title>ArticleListItem</title>
+            </head>
+            <body>
+                <section>
+                    <h3>{article.title}</h3>
+                    <p>{article.shortText}</p>
+                    <time dateTime={article.pubYear}>
+                        {article.pubDate}
+                        <button onClick={() => alert(slug)}>
+                            show article slug
+                        </button>
 
-        </section>
+                    </time>
+
+                </section>
+            </body>
+        </html>
 
 
     );
