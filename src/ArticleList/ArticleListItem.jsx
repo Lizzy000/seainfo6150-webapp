@@ -11,13 +11,13 @@ const ArticleListItem = props => {
         <section>
             <h3>{article.title}</h3>
             <p>{article.shortText}</p>
-            <p>
+            <time dateTime={article.pubYear}>
                 {article.pubDate}
                 <button onClick={() => alert(slug)}>
                     show article slug
                 </button>
 
-            </p>
+            </time>
 
         </section>
 
