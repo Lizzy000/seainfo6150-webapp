@@ -1,0 +1,24 @@
+section {
+    border: crimson solid 1px;
+}
+
+h3 {
+    color: crimson;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+p {
+    margin-left: 15px;
+
+}
+
+time {
+
+    margin: 15px;
+    font-weight: bold;
+
+
+}

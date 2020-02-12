@@ -1,0 +1,11 @@
+li {
+    border: darkgrey solid;
+    border-bottom-width: 20px ;
+    list-style-type: none;
+
+}
+
+ul {
+    padding-left: 0;
+    border: darkgrey solid 20px;
+}
