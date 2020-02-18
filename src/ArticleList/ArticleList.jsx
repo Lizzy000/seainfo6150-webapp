@@ -4,6 +4,8 @@ import ArticleListItem from "./ArticleListItem";
 import styles from "./ArticleList.module.css";
 
 const ArticleList = props => {
+  let temp=props.image
+
   return (
     <ul className={styles.container}>
       {props.articles.map(article => (

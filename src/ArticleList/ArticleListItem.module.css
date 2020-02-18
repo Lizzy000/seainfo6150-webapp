@@ -4,6 +4,13 @@
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(45,42,43,0.75) 0 10px 10px 0;
+    background-image: linear-gradient(
+            to right,
+            #c00,
+            white 15%
+    );
 }
 
 .title {
