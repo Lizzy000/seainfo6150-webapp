@@ -14,3 +14,18 @@
     margin: 20px;
 
 }
+
+@media (min-width: 300px) {
+    .slugButton{
+        float: center;
+        width: 50%;
+        background-color:black;
+    }
+}
+
+@media (min-width: 800px) {
+    .slugButton{
+        width: 90%;
+        background-color: coral;
+    }
+}

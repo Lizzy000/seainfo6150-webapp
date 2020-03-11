@@ -9,3 +9,17 @@ img {
     border: crimson solid 8px;
     box-shadow: grey 0 7px 7px 0;
 }
+
+@media (max-width: 800px) {
+    img {
+        height: 110px;
+        width: 110px;
+    }
+}
+
+@media (max-height: 800px) {
+    img {
+        height: auto;
+        width: 50%;
+    }
+}

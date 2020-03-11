@@ -31,3 +31,15 @@
     font-weight: bold;
     font-size: smaller;
 }
+@media (min-width: 200px) {
+    .title{
+        font-size: 30px;
+        font-style: normal;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .pubDate {
+        font-size: 14px;
+    }
+
+}
